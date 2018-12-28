@@ -1,0 +1,128 @@
+*{
+	font-family: 'DrukaatieburtiRegular';
+   	font-weight: normal;
+   	font-style: normal;
+}
+
+body,
+html{
+	margin: 0;
+	height: 100%;
+}
+
+body{
+	background-color: #2B303A;
+	color: #6FD3D6;
+}
+
+.wrapper{
+	display: flex;
+	flex-direction: column;
+	min-height: 100%
+}
+
+.wrapper.indexPage{
+	justify-content: center;
+
+}
+
+.mainSection{
+	flex-direction: column;
+	align-items: center;
+	display: flex;
+}
+
+.mainSection .searchContainer{
+	margin-top: 2em;
+	width: 100%;
+}
+
+.mainSection .searchContainer form{
+	flex-direction: column;
+	align-items: center;
+	display: flex;
+}
+.mainSection .searchContainer .searchBox{
+	width: 30em;
+	height: 3em;
+	font-size: 1em;
+	box-shadow: 2 px 3px #2A8E76;
+	max-width: 630px;
+
+}
+.searchContainer .searchButton{
+
+	font-size: 1em;
+	color: #757575;
+	background-color: black;
+	margin-top: 3em;
+	height: 38px;
+	width: 77px;
+	font-weight: bold;
+	cursor: pointer;
+	outline: none;
+}
+.mainSection .logoContainer{
+	width: 220px;
+	text-align: center;
+}
+
+.logoContainer img{
+	width: 100%;
+}
+
+.header{
+	background-color: black;
+	border-bottom: 1px solid #fff;
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	}
+
+.headerContent .logoContainer{
+	width: 150px;
+	padding: 5px 8px;
+	box-sizing: border-box;
+}
+.header .headerContent{
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+
+}
+.headerContent .searchContainer{
+    flex: 1;
+}
+.headerContent .searchContainer{
+    margin: 1 0 28px 0;
+}
+.headerContent .searchBox{
+	width: 30em;
+	border-radius:2;
+}
+.headerContent .searchBarContainer{
+	box-sizing:border-box;
+	display:flex;
+}
+.tabsContainer .tabList{
+	padding:0;
+	margin:0;
+	margin-left:33px;
+
+}
+.tabsContainer .tabList li{
+	display:-webkit-inline-box;
+	padding:7px;
+	font-size:1.2em;
+
+}
+.tabsContainer .tabList li a{
+	text-decoration:none;
+}
+.tabsContainer .tabList li.active{
+    border: 3px solid rgb(88,166,93);
+}
+.tabsContainer .tabList li.active a{
+    font-weight: bold;
+    color: blanchedalmond;
+}
